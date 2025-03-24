@@ -11,20 +11,22 @@ def run_command(command):
         sys.exit(1)
 
 def main():
+    # Define the path for the virtual environment
     env_path = os.path.join(os.getcwd(), "env")
-    
+
     print("Setting up the virtual environment and installing dependencies...")
 
-    # Create virtual environment
+    # Create virtual environment if it doesn't exist
     if not os.path.exists(env_path):
         print("Creating virtual environment...")
         run_command(f"python3 -m venv {env_path}")
 
-    # Activate virtual environment and install dependencies
+    # Activate virtual environment and install required packages
     activate_env = f"source {env_path}/bin/activate"
     
-    print("Installing required packages...")
-    run_command(f"{activate_env} && pip install --upgrade pip && pip install -r requirements.txt")
+    # Run the commands to upgrade pip and install the dependencies
+    print("Upgrading pip and installing required packages...")
+    run_command(f"{activate_env} && pip install --upgrade pip && pip install scapy netifaces")
 
     print("Setup completed successfully!")
 
