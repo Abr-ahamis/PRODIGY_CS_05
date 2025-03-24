@@ -31,12 +31,12 @@ Ensure you have the following installed:
    ```
 
 3. Setup required packages:
-      #### This will:
-       Create a virtual environment (env).
+ #### This will:
+   Create a virtual environment (env).
 
-       Activate it.
+   Activate it.
 
-       Install scapy and netifaces.
+   Install scapy and netifaces.
    ```bash
    python3 setup_requirements.py
    ```
