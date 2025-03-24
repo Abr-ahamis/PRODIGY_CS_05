@@ -43,8 +43,12 @@ Ensure you have the following installed:
 
 ## Usage
 
-### Running Sniffing and ARP Spoofing Concurrently
-
+### Running Sniffing and ARP Spoofing 
+### Without ip add all device in network
+```bash
+sudo python3 network.py ss
+```
+### specific IP address
 To execute both sniffing and ARP spoofing simultaneously for a specific IP address, use the following command:
 
 ```bash
