@@ -27,7 +27,7 @@ Ensure you have the following installed:
 2. Navigate to the project directory:
 
    ```bash
-   cd network.py
+   cd PRODIGY_CS_05
    ```
 
 3. Setup required packages:
