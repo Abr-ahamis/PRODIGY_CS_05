@@ -30,10 +30,15 @@ Ensure you have the following installed:
    cd network.py
    ```
 
-3. Install the required packages:
+3. Setup required packages:
+      #### This will:
+       Create a virtual environment (env).
 
+       Activate it.
+
+       Install scapy and netifaces.
    ```bash
-   pip install -r requirements.txt
+   python3 setup_requirements.py
    ```
 
 ## Usage
