@@ -21,7 +21,7 @@ Ensure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/network.py.git
+   https://github.com/Abr-ahamis/PRODIGY_CS_05.git
    ```
 
 2. Navigate to the project directory:
