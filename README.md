@@ -1,4 +1,4 @@
-# PRODIGY_CS_05
+
 # Network.py
 
 **Network.py** is a Python-based network security tool designed to perform packet sniffing and Address Resolution Protocol (ARP) spoofing. It enables users to monitor network traffic and manipulate ARP tables to intercept communications between devices on a local network.
